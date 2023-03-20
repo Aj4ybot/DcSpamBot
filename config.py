@@ -7,12 +7,12 @@ load_dotenv()
 
 # FOR CODES
 
-API_ID = int(getenv("API_ID")) 
-API_HASH = getenv("API_HASH") 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5391883908").split()))
+API_ID = int(getenv("API_ID", "25785806")) 
+API_HASH = getenv("API_HASH", "aa055afea5f5a4b653d430a91cc1a5ca") 
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6171038521").split()))
 LOGGER = int(getenv("LOGGER", None)) 
-OWNER = int(getenv("OWNER_ID")) 
-NAME = getenv("ALIVE_NAME")
+OWNER = int(getenv("OWNER_ID", "5731466060")) 
+NAME = getenv("ALIVE_NAME", "Sahu name")
 OWN_USERNAME= getenv("OWN_USERNAME")
 ALIVE_PIC = getenv("ALIVE_PIC") 
 
